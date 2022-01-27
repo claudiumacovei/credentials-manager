@@ -15,7 +15,11 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220127093226_added_entity_Credential.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220127093227_added_entity_IdentityProvider.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220127093228_added_entity_ServiceProvider.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220127093226_added_entity_constraints_Credential.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
